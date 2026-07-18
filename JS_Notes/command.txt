@@ -1,0 +1,35 @@
+git init
+git add .
+git commit -m "First Commit"
+git branch -M main
+git remote add origin https://github.com/ADATYA/JavaScript-E6_PH_2026.git
+git push -u origin main
+
+// Step 1: কোন কোন file পরিবর্তন হয়েছে দেখো:
+git status
+
+//Step 2: সব পরিবর্তন Stage করো:
+git add .
+or, git add index.html
+
+//Step 3: Commit করো:
+git commit -m "Describe what you changed"
+
+//উদাহরণ:
+
+git commit -m "Add login page"
+git commit -m "Fix navbar alignment"
+git commit -m "Update JavaScript functions"
+git commit -m "Add CSS animations"
+git commit -m "Complete DOM practice"
+
+
+//Step 4: GitHub-এ Push করো:
+git push
+
+//প্রতিদিনের Workflow:
+
+git status
+git add .
+git commit -m "Your commit message"
+git push
