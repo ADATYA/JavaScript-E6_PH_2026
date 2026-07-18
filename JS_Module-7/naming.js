@@ -13,5 +13,14 @@ let gdrt ='google';
 
 // 02=>Cannot use any kind of keywords (Those are reserved word)
 // const let =234;
-// console.log(let);
+// console.log(let); // error : This is show error !!!
+
+// 03 has to be in one word
+
+//const her phone number =123456789;
+// const her_phone_number =123456789; //snake case
+// const herPhoneNumber =123456789; //Cample case
+// const HerPhoneNumber =123456789; // pascal case
+
+//04. Name cannot start with a number. But number could  used anywhere other than the first letter
 
