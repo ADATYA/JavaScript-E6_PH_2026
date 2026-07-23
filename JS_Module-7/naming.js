@@ -18,9 +18,20 @@ let gdrt ='google';
 // 03 has to be in one word
 
 //const her phone number =123456789;
-// const her_phone_number =123456789; //snake case
-// const herPhoneNumber =123456789; //Cample case
-// const HerPhoneNumber =123456789; // pascal case
+const her_phone_number =123456789; //snake case
+const herPhoneNumber =123456789; //Cample case
+const HerPhoneNumber =123456789; // pascal case
 
 //04. Name cannot start with a number. But number could  used anywhere other than the first letter
 
+//const 3person =3;
+const person3 =7;
+const p3erson = 4;
+
+//05. Other than letter name can start with either _, $. Cannot use any other specioal chatecter.
+
+//6. Variable case sensitive.
+
+let address = "Natore";
+let Address = "Rajshashi";
+let addRess = "Dhaka";
