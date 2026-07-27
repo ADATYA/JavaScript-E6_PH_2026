@@ -2,7 +2,7 @@
 
 ---
 
-1️⃣ Typing Animation (সবচেয়ে সুন্দর)
+1️⃣ Typing Animation
 
 ```md
 <p align="center">
@@ -14,24 +14,21 @@
 
 ## 2️⃣ JavaScript Banner
 
-```md
+
 <p align="center">
 <img src="https://skillicons.dev/icons?i=js,nodejs,html,css,vscode,git,github" />
 </p>
-```
 
 ---
 
 ## 3️⃣ Beautiful Quote
 
-```md
 > "Programming isn't about what you know.
 It's about what you can figure out."
 ``
 
 # 5️⃣ Repository Features
 
-```md
 ## ✨ Features
 
 - 📖 Beginner Friendly
