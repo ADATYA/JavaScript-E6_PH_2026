@@ -1,0 +1,99 @@
+//Problem-01: Match Winner
+function matchWinner(teamAGoals, teamBGoals) {
+    // Write your code here...
+    if (typeof teamAGoals !== 'number' || typeof teamBGoals !== 'number') {
+        return "Invalid";
+    }
+
+    if (teamAGoals > teamBGoals) {
+        return "Team A Won";
+    } else if (teamBGoals > teamAGoals) {
+        return "Team B Won";
+    } else {
+        return "Draw";
+    }
+}
+
+//Problem-02: Elevator Weight Safety Checker
+function isElevatorSafe(weights) {
+    // Write your code here...
+
+    if (!Array.isArray(weights)) {
+        return "Invalid";
+    }
+
+    let totalWeight = 0;
+    for (let i = 0; i < weights.length; i++) {
+        totalWeight += weights[i];
+    }
+
+    return totalWeight <= 400;
+    
+}
+
+//Problem-03: AI Token Cost Calculator
+function calculateAiCost(tokensUsed) {
+    // Write your code here.
+
+    // Check if input is a valid non-negative number in very first..
+    if (typeof tokensUsed !== 'number' || tokensUsed < 0) {
+        return "Invalid";
+    }
+
+    // Return 0 if tokens used are within the free limit (500)
+    if (tokensUsed <= 500) {
+        return 0;
+    }
+
+    // Calculate cost for extra tokens
+    const extraTokens = tokensUsed - 500;
+    const extraBlocks = Math.floor(extraTokens / 100);
+    const totalCost = extraBlocks * 5;
+
+    return totalCost;  //returnig value
+}
+
+//Problem-04: Top Rated Restaurant Finder
+function topRatedRestaurant(restaurants) {
+    // Write your code here
+
+    if (!Array.isArray(restaurants) || restaurants.length === 0) {
+        return "Invalid";
+    }
+
+    //Track the restaurant with the highest rating
+    let topRestaurant = restaurants[0];
+
+    for (let i = 1; i < restaurants.length; i++) {
+        if (restaurants[i].rating > topRestaurant.rating) {
+            topRestaurant = restaurants[i];
+        }
+    }
+
+    //Return the name in uppercase
+    return topRestaurant.name.toUpperCase();
+}
+
+//Problem-05: Debugging Challenge - API Response Time Monitor
+/* এই ফাংশনের সব বাগ খুঁজে ঠিক করো — নাম পরিবর্তন করবে না */
+function averageResponseTime(times) {
+  if (Array.isArray(times) === false) {
+        return "Invalid";
+   }
+
+   if (times.length === 0) {
+        return "Invalid";
+    }
+
+   let total = 0;
+   for (let i = 0; i < times.length; i++) {
+        if (typeof times[i] !== "number") {
+            return "Invalid";
+        }
+        total = total + times[i];
+   }
+
+  return total / times.length;
+}
+
+
