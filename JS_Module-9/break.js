@@ -17,7 +17,7 @@ for(let i=0;i<=30;i++){
 
 let count = 0;
 while(count< 10){
-    if(count >4){
+    if(count >7){
         console.log("This is breakup song");
         break;
     }
@@ -28,27 +28,3 @@ while(count< 10){
 console.log("Life after breaking up with any project");
 //While loop using Break code..
 
-let count = 0;
-while(count< 10){
-    if(count >4){
-        console.log("This is breakup song");
-        break;
-    }
-    console.log("Value of the count : ", count);
-    count--;
-}
-
-console.log("Life after breaking up with any project");
-//While loop using Break code..
-
-let count = 0;
-while(count< 10){
-    if(count >4){
-        console.log("This is breakup song");
-        break;
-    }
-    console.log("Value of the count : ", count);
-    count++;
-}
-
-console.log("Life after breaking up with any project");
